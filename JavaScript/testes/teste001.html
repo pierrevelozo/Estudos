@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste 001</title>
+    <style>
+        body{
+            background-color: #111111;
+            color: white;
+            font-family: monospace;
+            font-size: 2em;
+        }
+
+        button{
+            width: 300px;
+            height: 100px;
+            font-family: monospace;
+            color: black;
+        }
+
+        section{
+            margin-top: 50px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1>Bem-Vindo</h1>
+
+    <button onclick="inicio()">Clique Aqui!</button>
+
+    <section id="nome"></section>
+    
+
+    <script>
+
+        function inicio(){
+            let nome = window.prompt('Digite seu nome.');
+            let resultado = window.document.getElementById('nome');
+
+            resultado.innerHTML =`Olá, ${nome}. É um prazer tem conhecer!`;
+
+        }
+
+    </script>
+</body>
+</html>
