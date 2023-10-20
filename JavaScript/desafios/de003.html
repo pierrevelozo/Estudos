@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 003</title>
+    <style>
+        body{
+            background-color: #111111;
+            color: white;
+            font-family: monospace;
+            font-size: 2em;
+        }
+
+        button{
+            width: 300px;
+            height: 100px;
+            font-family: monospace;
+            color: black;
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1>Antes e Depois</h1>
+
+    <button onclick="iniciar()">Começar!</button>
+
+    <script>
+        function iniciar(){
+
+        var num = Number(window.prompt('Digite um número'))
+
+        window.alert(`Antes de ${num}, temos o número ${--num}. Depois de ${++num}, temos o número de ${++num}.`)
+
+        }
+    </script>
+    
+</body>
+</html>
