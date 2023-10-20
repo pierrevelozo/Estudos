@@ -31,16 +31,16 @@
 
     <button onclick="inicio()">Clique Aqui!</button>
 
-    <section id="nome"></section>
+    <section id="apresentacao"></section>
     
 
     <script>
 
         function inicio(){
             let nome = window.prompt('Digite seu nome.');
-            let resultado = window.document.getElementById('nome');
+            let apresentacao = window.document.getElementById('apresentacao');
 
-            resultado.innerHTML =`Olá, ${nome}. É um prazer tem conhecer!`;
+            apresentacao.innerHTML =`Olá, ${nome}. É um prazer tem conhecer!`;
 
         }
 
