@@ -3,17 +3,24 @@
 
 int main(void)
 {
-    char c = get_char("Você aceita? ");
+    bool aceito = false;
 
-    // Verifica se foi aceito.
+    do
+    {
+        char c = get_char("Você aceita? ");
 
-    if (c == 'y' || c == 'Y')
-    {
-        printf("Aceito.\n"); 
+        // Verifica se foi aceito.
+
+        if (c == 'y' || c == 'Y')
+        {
+            printf("Aceito.\n");
+            aceito = true;
+        }
+
+        else if (c == 'n' || c == 'N')
+        {
+            printf("Não aceito.\n");
+        }
     }
-    
-    else if (c == 'n' || c == 'N')
-    {
-        printf("Não aceito.\n");
-    }
+    while (aceito == false);
 }
