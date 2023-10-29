@@ -29,6 +29,7 @@ int main(void)
 
         t = verificacao(0.01, t, m1);
 
+        printf("\n");
     }
 }
 
