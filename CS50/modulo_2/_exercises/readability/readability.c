@@ -33,7 +33,14 @@ int main(void)
 
     float grade = 0.0588 * L - 0.296 * S - 15.8;
     
-    printf("\nGrade: %.0f\n", round(grade));
-
+    if (grade > 16)
+    {
+        printf("\nGrade: 16+\n\n");
+    }
+    else
+    {
+        printf("\nGrade: %.0f\n\n", round(grade));
+    }
+    
     return 0;
 }
