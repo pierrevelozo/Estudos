@@ -7,9 +7,9 @@ int main(int argc, string argv[])
 {
     //  Mensagem de erro.
 
-    if (argc != 2)
+    if (argc != 2 || isalpha(argv[1][0]))
     {
-        printf("Erro: Faltam argumentos de linha de comando.\n");
+        printf("Erro: Insira corretamente os argumentos de linha de comando. Use:  ./caesar key.\n\n");
         return 1;
     }
     if (argv[1][0] <= '0' || argv[1][0] >= '2' && argv[1][1] >= '6')
