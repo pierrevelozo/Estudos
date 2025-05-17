@@ -5,7 +5,7 @@ import random
 
 ### Settings
 
-qtBombas = 20
+qtBombas = 5
 qtBandeiras = 0
 largura = 5
 altura = 5
