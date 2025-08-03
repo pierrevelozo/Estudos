@@ -1,11 +1,11 @@
 public class Veiculo {
-    private float velocidade = 0;
+    private float velocidade;
 
-    public void setVelocidade(float setVelocidade){
+    public void setVelocidade(float setVelocidade) {
         velocidade = setVelocidade;
     }
 
-    public float getVelocidade(){
+    public float getVelocidade() {
         return velocidade;
     }
 
@@ -15,7 +15,7 @@ public class Veiculo {
 
     public void acelerar(float aceleracao){
         if (aceleracao > 0) {
-            velocidade += aceleracao;
+            setVelocidade(getVelocidade() + aceleracao);
         }
     }
 }
