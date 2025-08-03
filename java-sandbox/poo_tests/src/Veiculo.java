@@ -10,12 +10,13 @@ public class Veiculo {
     }
 
     public void exibirVelocidade(){
-        System.out.println("Velocidade atual é " + getVelocidade());
+        System.out.println("Velocidade: " + getVelocidade() + " km/h");
     }
 
     public void acelerar(float aceleracao){
         if (aceleracao > 0) {
             setVelocidade(getVelocidade() + aceleracao);
+            System.out.println("Veículo acelerando...");
         }
     }
 }
