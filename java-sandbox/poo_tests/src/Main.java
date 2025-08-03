@@ -12,6 +12,7 @@ public class Main {
         //honda.setVelocidade(80);
         //honda.acelerar(25);
         //honda.exibirVelocidade();
+        //honda.empinar();
 
         Veiculo[] veiculos = {
                 new Carro(),
