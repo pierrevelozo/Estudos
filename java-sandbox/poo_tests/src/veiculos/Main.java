@@ -1,13 +1,15 @@
+package veiculos;
+
 public class Main {
     public static void main(String[] args) {
-        //Carro audi = new Carro();
+        //veiculos.Carro audi = new veiculos.Carro();
 
         //audi.setVelocidade(0);
         //audi.acelerar(100);
         //audi.exibirVelocidade();
         //audi.abrirPorta();
 
-        //Moto honda = new Moto();
+        //veiculos.Moto honda = new veiculos.Moto();
 
         //honda.setVelocidade(80);
         //honda.acelerar(25);

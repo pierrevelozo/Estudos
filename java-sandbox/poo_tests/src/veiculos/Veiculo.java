@@ -1,3 +1,5 @@
+package veiculos;
+
 public class Veiculo {
     private float velocidade;
 

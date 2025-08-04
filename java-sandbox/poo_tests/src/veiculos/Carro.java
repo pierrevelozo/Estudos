@@ -1,4 +1,6 @@
-public class Carro extends Veiculo{
+package veiculos;
+
+public class Carro extends Veiculo {
     public void abrirPorta() {
         System.out.println("Porta aberta...");
     }
@@ -7,7 +9,7 @@ public class Carro extends Veiculo{
     public void acelerar(float aceleracao){
         if (aceleracao > 0) {
             setVelocidade(getVelocidade() + aceleracao);
-            System.out.println("Carro acelerando...");
+            System.out.println("veiculos.Carro acelerando...");
         }
     }
 }
