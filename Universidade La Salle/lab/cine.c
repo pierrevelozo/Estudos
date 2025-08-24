@@ -8,7 +8,7 @@ int main(void){
     printf("Valor do ingresso: ");
     scanf("%f", &valorIngresso);
 
-    printf("Categoria do ingresso:\nEstudante (E), Aposentado (A), Normal (N)\n");
+    printf("Estudante (E), Aposentado (A), Normal (N)\nCategoria do ingresso:\n");
     getchar();
     scanf("%c", &categoria);
 
@@ -29,7 +29,7 @@ int main(void){
         case 'N':
         case 'n':
             printf("Categoria: Normal\n");
-            desconto = 0;
+            desconto = 1;
             break;
     
         default:
@@ -39,4 +39,6 @@ int main(void){
 
     float valorAjustado = valorIngresso * desconto;
     printf("Valor ajustado: R$%.2f\n", valorAjustado);
+
+    return 0;
 }
