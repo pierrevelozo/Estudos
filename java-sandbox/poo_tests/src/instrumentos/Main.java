@@ -9,7 +9,7 @@ public class Main {
         };
 
         for (Instrumento i : instrumentos){
-            v.tocar();
+            i.tocar();
             System.out.println(" ");
         }
     }
