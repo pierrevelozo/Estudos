@@ -1,5 +1,5 @@
 # Estudos de Programação
-Nesse repositório está presente meus estudos de diferentes linguagens de programação, no momento, C, Python e JavaScript.
+Nesse repositório está presente meus estudos de diferentes linguagens de programação, no momento, C, Python e Java.
 
 <div>
     <img align="center" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg">
