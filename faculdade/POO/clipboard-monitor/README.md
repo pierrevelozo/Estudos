@@ -6,8 +6,8 @@ Clone o repositório (ou baixe os arquivos):
 
 Bash
 
-    git clone https://seu-repositorio.git
-    cd clipboard-monitor
+    git clone https://github.com/pierrevelozo/Estudos.git
+    cd Estudos/faculdade/POO/clipboard-monitor
 
 Crie e ative o ambiente virtual:
 
