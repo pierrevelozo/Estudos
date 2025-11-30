@@ -1,0 +1,14 @@
+[
+    {
+        "timestamp": "2025-11-24 19:40:07",
+        "content": "teste2"
+    },
+    {
+        "timestamp": "2025-11-24 19:40:17",
+        "content": "colar"
+    },
+    {
+        "timestamp": "2025-11-30 20:19:31",
+        "content": ".venv/bin/python Main.py  "
+    }
+]
